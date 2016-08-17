@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var result = 0;
+		 var a = 0;
+		 var total = 0;
+		for(var i = 10; i<=60; i++){
+			
+			if ((i%3)==0)
+				
+				result+=i;
+			if((i%10)==0)	
+				a+=i;
+
+			if(i%3==0){
+				console.log('число ' + i + ' делится на 3')
+			}
+		}
+
+		total = result - a;
+		alert('сумма всех чисел от 10 до 60 кратных 3 без кратных 10 = '+total);
+		
+		
+	</script>
+</body>
+</html>
